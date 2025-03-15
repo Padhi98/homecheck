@@ -341,16 +341,37 @@ footer {
 @media (max-width: 768px) {
     .nav-wrapper {
         flex-direction: column;
+        padding: 15px 0;
+    }
+    .logo {
+        margin-bottom: 15px;
+    }
+    nav {
+        width: 100%;
     }
     
     nav ul {
-        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        margin-top: 10px;
         flex-wrap: wrap;
         justify-content: center;
+        gap: 10px;
     }
     
     nav ul li {
-        margin: 5px 15px;
+        margin: 0;
+        display: inline-block;
+    }
+
+    nav a {
+        display: block;
+        padding: 5px 10px;
+        white-space: nowrap;
+    }
+
+    .hero {
+        padding-top: 180px;
     }
     
     .hero h1 {
